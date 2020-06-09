@@ -3,13 +3,13 @@ class Queue:
         self.items = []
 
     def isEmpty(self):
-        return self.item == []
+        return self.items == []
 
     def enqueue(self, item):
-        self.item.insert(0, item)
+        self.items.insert(0, item)
 
     def dequeue(self):
-        return self.item.pop()
+        return self.items.pop()
 
     def size(self):
         return len(self.items)
