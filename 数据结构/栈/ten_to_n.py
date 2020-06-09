@@ -39,4 +39,4 @@ def divideByN(n, decNumber):
 
     return binString
 
-print(divideBy2(8, 16))
+print(divideByN(8, 16))
