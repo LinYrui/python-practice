@@ -11,7 +11,6 @@
 遍历完后，如果栈非空，就把所有的符号挨个弹出到列表中。
 """
 
-
 class Stack:
     def __init__(self):
         self.items = []
